@@ -1,0 +1,14 @@
+.breadcrumb{
+    display: flex;
+    font-size: 15px;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .breadcrumb { 
+        display: inline;
+    }
+}  
+
